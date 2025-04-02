@@ -6,10 +6,10 @@ const Hero = () => {
     return (
       <section className="relative w-full h-screen flex items-center justify-center bg-cover bg-center text-white px-6"
       style={{
-        backgroundImage: `url(${banner})`, // ✅ Use template literals
+        backgroundImage: `url(${banner})`, 
         backgroundSize: "cover",
         backgroundPosition: "center",
-        height: "100vh", // Adjust as needed
+        height: "100vh",
         width: "100%",
       }}
       >
