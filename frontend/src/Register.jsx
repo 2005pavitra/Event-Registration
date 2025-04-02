@@ -50,7 +50,7 @@ const RegisterForm = () => {
       >
         <h2 className="text-2xl font-bold text-center mb-4">Register</h2>
 
-        {/* Name */}
+    
         <label className="block mb-2">Name</label>
         <input
           type="text"
@@ -62,7 +62,7 @@ const RegisterForm = () => {
           placeholder="Enter your name"
         />
 
-        {/* Email */}
+       
         <label className="block mb-2">Email</label>
         <input
           type="email"
@@ -74,7 +74,7 @@ const RegisterForm = () => {
           placeholder="Enter your email"
         />
 
-        {/* WhatsApp Number */}
+       
         <label className="block mb-2">WhatsApp Number</label>
         <input
           type="tel"
@@ -86,7 +86,7 @@ const RegisterForm = () => {
           placeholder="Enter your WhatsApp number"
         />
 
-        {/* Enrollment Number */}
+       
         <label className="block mb-2">Enrollment Number</label>
         <input
           type="text"
@@ -98,7 +98,7 @@ const RegisterForm = () => {
           placeholder="Enter your enrollment number"
         />
 
-        {/* College Dropdown */}
+        
         <label className="block mb-2">College</label>
         <select
           name="college"
@@ -115,7 +115,7 @@ const RegisterForm = () => {
           ))}
         </select>
 
-        {/* Branch Dropdown */}
+      
         <label className="block mb-2">Branch</label>
         <select
           name="branch"
@@ -132,7 +132,7 @@ const RegisterForm = () => {
           ))}
         </select>
 
-        {/* Comments Section */}
+
         <label className="block mb-2">What did you learn from the session?</label>
         <textarea
           name="comments"
@@ -142,7 +142,7 @@ const RegisterForm = () => {
           placeholder="Share your thoughts..."
         ></textarea>
 
-        {/* Submit Button */}
+   
         <button
           type="submit"
           className="bg-blue-500 text-white w-full p-2 rounded hover:bg-blue-600"
